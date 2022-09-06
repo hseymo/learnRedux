@@ -5,10 +5,10 @@ import Color from "./components/Color";
 function App() {
   return (
     <div className="App">
-      <heaser>
+      <header>
         <h1>Hello I'm The App Component</h1>
-      </heaser>
-      <main class="container">
+      </header>
+      <main className="container">
         <Count />
         <Color />
         {/* <div class="card">
