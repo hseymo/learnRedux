@@ -20,7 +20,7 @@ html {
 .card {
   padding: 20px;
   margin: 10px;
-  background-color: #ADD8E6;
+  /* background-color: #ADD8E6; */
   border: 2px solid black;
   flex: 1;
   text-align: center
@@ -36,4 +36,8 @@ html {
 
 .Color {
   color: blue
+}
+
+button {
+  padding: 8px
 }

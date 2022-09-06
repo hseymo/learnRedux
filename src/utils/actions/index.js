@@ -16,9 +16,10 @@ export const resetCount = () => {
   };
 };
 
-export const changeColor = () => {
+export const changeColor = (colorChoice) => {
   return {
     type: "CHANGE_COLOR",
+    payload: colorChoice
   };
 };
 
